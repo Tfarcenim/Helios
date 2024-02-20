@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tfar.helios.mixin",
+  "refmap": "${archives_base_name}.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChunkMixin",
+    "EnumSkyBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
